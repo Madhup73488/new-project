@@ -18,6 +18,9 @@ You can view a live demo of the project here: [Link to live demo] (if available)
 Screenshot of the text manipulator website
 
 ## Technologies Used
+
 HTML: For creating the structure of the website.
+
 CSS: For styling the website and making it responsive.
+
 JavaScript: For adding interactive functionality like text manipulation and word/character counting.
