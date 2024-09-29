@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Text Manipulator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Text Manipulator</h1>
+    <textarea id="inputText" rows="10" placeholder="Enter your text here"></textarea>
+
+    <div class="buttons">
+      <button onclick="toUpperCaseText()">Uppercase</button>
+      <button onclick="toLowerCaseText()">Lowercase</button>
+      <button onclick="reverseText()">Reverse Text</button>
+      <button onclick="clearText()">Clear</button>
+    </div>
+
+    <div class="results">
+      <p id="charCount">Character Count: 0</p>
+      <p id="wordCount">Word Count: 0</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
